@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Built-By: kevin
+Build-Jdk: 15
+Created-By: Maven Integration for Eclipse
+TFS-BuildDate: 2020-11-20 11:37:21
+Bundle-SymbolicName: com.cobiscorp.cobis-intrd.insertsbli.customevents.i
+ mpl-1.0.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: COBISCORP
+TFS-RepositoryName: https://tfs.cobiscorp.com/tfs/DefaultCollection/COB/
+ _git/DSG branch:refs/heads/dsg_Liberaion7.2Master23
+Import-Package: com.cobiscorp.cobis.commons.domains.log,com.cobiscorp.co
+ bis.commons.log,com.cobiscorp.designer.api,com.cobiscorp.designer.api.c
+ ustomization,com.cobiscorp.designer.api.customization.arguments,com.cob
+ iscorp.designer.api.managers,com.cobiscorp.designer.bli.api,com.cobisco
+ rp.designer.common
+Service-Component: OSGI-INF/serviceComponents.xml
+Tool: Bundlor 1.0.0.RELEASE
+TFS-ChangeSet: dc7eaa11d303eeb2394615f0a68fe7a550934630
+Export-Package: com.cobiscorp.cobis.intrd.customevents.impl.view.execute
+ command;version="1.0.0";uses:="com.cobiscorp.designer.api,com.cobiscorp
+ .designer.api.customization,com.cobiscorp.designer.api.customization.ar
+ guments,com.cobiscorp.designer.bli.api"
+Bundle-Name: com.cobiscorp.cobis-intrd.insertsbli.customevents.impl
+Bundle-Version: 1.0.0
+

@@ -1,0 +1,39 @@
+{
+	"culture": "culture",
+	"metadataVersion": "7.2.0.2024 BETA",
+	"moduleId": "INTRD",
+	"modules": [
+		{
+			"moduleId": "INTRD",
+			"moduleName": "Introduccion",
+			"subModules": [
+				{
+					"subModuleId": "FRMLR",
+					"subModuleName": "Formularios"
+				},
+				{
+					"subModuleId": "OPRCN",
+					"subModuleName": "Operaciones"
+				},
+				{
+					"subModuleId": "FRMCN",
+					"subModuleName": "FormCuentas"
+				},
+				{
+					"subModuleId": "CMBOS",
+					"subModuleName": "CombosEstado"
+				},
+				{
+					"subModuleId": "CNTAS",
+					"subModuleName": "Cuentas"
+				},
+				{
+					"subModuleId": "FRMSP",
+					"subModuleName": "FormSPInserts"
+				}
+			]
+		}
+	],
+	"projectName": "Capacitacion",
+	"subModuleId": "FRMSP"
+}

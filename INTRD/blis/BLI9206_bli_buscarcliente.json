@@ -1,0 +1,113 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25160"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cedula",
+			"type": "CUSTOM",
+			"value": "cedula"
+		}
+	],
+	"name": "BLI_BuscarCliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI9206_bli_buscarcliente",
+	"patternName": "BLI_BuscarCliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "f00a5dab-24dd-4f72-93b0-ace4990a8588",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "f00a5dab-24dd-4f72-93b0-ace4990a8588",
+			"columns": [
+				{
+					"attributeId": "AT45_CODIGOEL534",
+					"entityId": "EN_CLIENTEGK_534",
+					"format": "",
+					"name": "codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT75_NOMBRENL534",
+					"entityId": "EN_CLIENTEGK_534",
+					"format": "",
+					"name": " nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT34_APELLIOE534",
+					"entityId": "EN_CLIENTEGK_534",
+					"format": "",
+					"name": " apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT76_CEDULADI534",
+					"entityId": "EN_CLIENTEGK_534",
+					"format": "",
+					"name": " cedula",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTEGK_534",
+			"module": {
+				"moduleId": "INTRD",
+				"moduleName": "Introduccion"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "master.sp_cliente_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

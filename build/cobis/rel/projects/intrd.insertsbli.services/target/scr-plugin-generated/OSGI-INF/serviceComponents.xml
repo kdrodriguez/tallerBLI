@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.services.T_INTRDJEEIIIOD_692">
+        <implementation class="com.cobiscorp.cobis.intrd.services.T_INTRDJEEIIIOD_692"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.cobis.intrd.services.T_INTRDJEEIIIOD_692"/>
+        </service>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.services.T_INTRDJEEIIIOD_692"/>
+        <reference name="formEventBuilder" interface="com.cobiscorp.designer.api.builder.FormEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(task.module=INTRD)(task.submodule=FRMSP)(task.id=T_INTRDJEEIIIOD_692)(task.version=1.0.0))" bind="addFormEventBuilder" unbind="removeFormEventBuilder"/>
+        <reference name="VW_IMPRESORAA_799" interface="com.cobiscorp.designer.api.builder.ViewEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(view.id=VW_IMPRESORAA_799)(view.version=1.0.0))" bind="addViewEventBuilder" unbind="removeViewEventBuilder"/>
+        <reference name="LoadCatalogCobis" interface="com.cobiscorp.designer.api.customization.ILoadCatalogCobis" cardinality="0..n" policy="dynamic" bind="addLoadCatalogCobis" unbind="removeLoadCatalogCobis"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.services.T_INTRDKMSGVNFM_174">
+        <implementation class="com.cobiscorp.cobis.intrd.services.T_INTRDKMSGVNFM_174"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.cobis.intrd.services.T_INTRDKMSGVNFM_174"/>
+        </service>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.services.T_INTRDKMSGVNFM_174"/>
+        <reference name="formEventBuilder" interface="com.cobiscorp.designer.api.builder.FormEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(task.module=INTRD)(task.submodule=FRMSP)(task.id=T_INTRDKMSGVNFM_174)(task.version=1.0.0))" bind="addFormEventBuilder" unbind="removeFormEventBuilder"/>
+        <reference name="VW_FESTIVOSAN_121" interface="com.cobiscorp.designer.api.builder.ViewEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(view.id=VW_FESTIVOSAN_121)(view.version=1.0.0))" bind="addViewEventBuilder" unbind="removeViewEventBuilder"/>
+        <reference name="LoadCatalogCobis" interface="com.cobiscorp.designer.api.customization.ILoadCatalogCobis" cardinality="0..n" policy="dynamic" bind="addLoadCatalogCobis" unbind="removeLoadCatalogCobis"/>
+    </scr:component>
+</components>

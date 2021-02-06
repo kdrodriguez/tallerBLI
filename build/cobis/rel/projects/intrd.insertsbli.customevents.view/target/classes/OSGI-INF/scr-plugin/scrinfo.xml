@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONHCXHCLK_743799_426_ViewEvent">
+        <implementation class="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONHCXHCLK_743799_426_ViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.ViewEventBuilder"/>
+        </service>
+        <property name="view.id" type="String" value="VW_IMPRESORAA_799" private="false"/>
+        <property name="view.version" type="String" value="1.0.0" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONHCXHCLK_743799_426_ViewEvent" private="false"/>
+        <reference name="iExecuteCommandVA_VABUTTONHCXHCLK_743799" interface="com.cobiscorp.designer.api.customization.IExecuteCommand" cardinality="1..1" policy="dynamic" target="(&amp;(view.id=VW_IMPRESORAA_799)(view.version=1.0.0)(view.controlId=VA_VABUTTONHCXHCLK_743799))" bind="setiExecuteCommandVA_VABUTTONHCXHCLK_743799" unbind="unsetiExecuteCommandVA_VABUTTONHCXHCLK_743799" checked="true" strategy="event"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONIXHHGDZ_257121_619_ViewEvent">
+        <implementation class="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONIXHHGDZ_257121_619_ViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.ViewEventBuilder"/>
+        </service>
+        <property name="view.id" type="String" value="VW_FESTIVOSAN_121" private="false"/>
+        <property name="view.version" type="String" value="1.0.0" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONIXHHGDZ_257121_619_ViewEvent" private="false"/>
+        <reference name="iExecuteCommandVA_VABUTTONIXHHGDZ_257121" interface="com.cobiscorp.designer.api.customization.IExecuteCommand" cardinality="1..1" policy="dynamic" target="(&amp;(view.id=VW_FESTIVOSAN_121)(view.version=1.0.0)(view.controlId=VA_VABUTTONIXHHGDZ_257121))" bind="setiExecuteCommandVA_VABUTTONIXHHGDZ_257121" unbind="unsetiExecuteCommandVA_VABUTTONIXHHGDZ_257121" checked="true" strategy="event"/>
+    </scr:component>
+</components>

@@ -1,0 +1,197 @@
+{
+	"filename": "C:\\Users\\kevin\\Desktop\\COBIS DESIGNER\\BDD PROC\\Functions\\sp_impresora.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_impresora",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "login",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "descripcion",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_corr"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_corr"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_rty"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_ubicacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_comando"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_dstserver"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_archivo"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_secuencial"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_shell"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "4c8efe65-d92f-4e49-8ce3-465a3da4760a",
+				"columns": [
+					"Secuencial",
+					"Ubicacion",
+					"Comando",
+					"Nombre"
+				],
+				"editMode": true,
+				"queryText": "select   \u0027Secuencial\u0027   = im_secuencial,\r\n      \u0027Ubicacion\u0027    = im_ubicacion,\r\n      \u0027Comando\u0027   = im_comando,\r\n      \u0027Nombre\u0027 = im_nombre\r\n   from"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "descripcion",
+				"name": "@w_aux1"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@w_aux2"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_batch"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_comando"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_count"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_ejecucion"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_existe"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@w_nombre"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_parametro"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_sarta"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_secuencial"
+			},
+			{
+				"dataType": "tinyint",
+				"name": "@w_siguiente"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			},
+			{
+				"dataType": "char",
+				"name": "@w_tipo"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@w_today"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@w_ubicacion"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_valor"
+			}
+		]
+	}
+}

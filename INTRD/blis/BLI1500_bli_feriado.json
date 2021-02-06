@@ -1,0 +1,99 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_DIAFERIAD_405",
+			"module": {
+				"moduleId": "INTRD",
+				"moduleName": "Introduccion"
+			},
+			"name": "DiaFeriado"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "smallint",
+			"dataType": "SMALLINT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "594"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		},
+		{
+			"attributeId": "AT98_ANIORIHS405",
+			"bddType": "smallint",
+			"dataType": "SMALLINT",
+			"direction": "in",
+			"entityId": "EN_DIAFERIAD_405",
+			"format": "",
+			"name": "@i_anio",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT57_MESHOLRT405",
+			"bddType": "tinyint",
+			"dataType": "TINYINT",
+			"direction": "in",
+			"entityId": "EN_DIAFERIAD_405",
+			"format": "",
+			"name": "@i_mes",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT83_DIAJRQDM405",
+			"bddType": "tinyint",
+			"dataType": "TINYINT",
+			"direction": "in",
+			"entityId": "EN_DIAFERIAD_405",
+			"format": "",
+			"name": "@i_dia",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT36_CIUDADBH405",
+			"bddType": "smallint",
+			"dataType": "SMALLINT",
+			"direction": "in",
+			"entityId": "EN_DIAFERIAD_405",
+			"format": "",
+			"name": "@i_ciudad",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_feriado",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI1500_bli_feriado",
+	"patternName": "BLI_feriado",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_feriados",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

@@ -1,0 +1,9 @@
+{
+	"EN_CLIENTEGK_534": {
+		"queries": {
+			"Q_CLIEEENE_BH41": {
+				"$ref": "../CNTAS/queries/Q_CLIEEENE_BH41.json#"
+			}
+		}
+	}
+}

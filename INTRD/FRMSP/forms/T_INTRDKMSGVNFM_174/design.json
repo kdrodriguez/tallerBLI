@@ -1,0 +1,343 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "INTRD",
+		"subModuleId": "FRMSP",
+		"taskId": "T_INTRDKMSGVNFM_174",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_FESTIVOSUQ_946174",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../INTRD/relations/componentKeys.json#/FRMSP/Forms/T_INTRDKMSGVNFM_174/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "INTRD",
+				"subModuleId": "FRMSP",
+				"taskId": "T_INTRDKMSGVNFM_174",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_FESTIVOSUQ_946174"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "FormFestivos",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 2,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../INTRD/entities/EN_DIAFERIAD_405.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_FESTIVOSSS_373121",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1131",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_DIAFERIAD_405.json#/attributes/AT98_ANIORIHS405"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_AOTHGEHJH_21485"
+									},
+									"labelId": "LBL_INTRD_AOTHGEHJH_21485",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "anio",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_ANIOLVBVRRSKQZQ_754121",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_DIAFERIAD_405.json#/attributes/AT36_CIUDADBH405"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_CDIGOCIDA_23807"
+									},
+									"labelId": "LBL_INTRD_CDIGOCIDA_23807",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "ciudad",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_CIUDADZOXYHWTPT_607121",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_DIAFERIAD_405.json#/attributes/AT83_DIAJRQDM405"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_DAAQKWBFZ_12890"
+									},
+									"labelId": "LBL_INTRD_DAAQKWBFZ_12890",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "dia",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_DIAVXBWRZIGHRIP_437121",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_DIAFERIAD_405.json#/attributes/AT57_MESHOLRT405"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_MESIYFIVO_40098"
+									},
+									"labelId": "LBL_INTRD_MESIYFIVO_40098",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "mes",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_MESSYHMRGYCOFZH_616121",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONIXHHGDZ_257121_619",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_REGISTRAR_30885"
+									},
+									"labelId": "LBL_INTRD_REGISTRAR_30885",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONIXHHGDZ_257121",
+								"options": 0,
+								"order": 5,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONIXHHGDZ_257121",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_FESTIVOSAN_121"
+				},
+				"metadataVersion": "7.2.0.2024 BETA",
+				"modules": [
+					{
+						"moduleId": "INTRD"
+					}
+				],
+				"name": "View of FormFestivos"
+			}
+		}
+	]
+}

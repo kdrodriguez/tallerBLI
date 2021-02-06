@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.customevents.impl.view.executecommand.VA_VABUTTONHCXHCLK_743799">
+        <implementation class="com.cobiscorp.cobis.intrd.customevents.impl.view.executecommand.VA_VABUTTONHCXHCLK_743799"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="view.id" type="String" value="VW_IMPRESORAA_799" private="false"/>
+        <property name="view.version" type="String" value="1.0.0" private="false"/>
+        <property name="view.controlId" type="String" value="VA_VABUTTONHCXHCLK_743799" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.customevents.impl.view.executecommand.VA_VABUTTONHCXHCLK_743799" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.customevents.impl.view.executecommand.VA_VABUTTONIXHHGDZ_257121">
+        <implementation class="com.cobiscorp.cobis.intrd.customevents.impl.view.executecommand.VA_VABUTTONIXHHGDZ_257121"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="view.id" type="String" value="VW_FESTIVOSAN_121" private="false"/>
+        <property name="view.version" type="String" value="1.0.0" private="false"/>
+        <property name="view.controlId" type="String" value="VA_VABUTTONIXHHGDZ_257121" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.customevents.impl.view.executecommand.VA_VABUTTONIXHHGDZ_257121" private="false"/>
+    </scr:component>
+</components>

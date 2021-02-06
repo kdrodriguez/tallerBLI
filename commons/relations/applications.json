@@ -1,0 +1,124 @@
+{
+	"APP_CAPACITAONC_457": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"moduleName": "Introduccion",
+					"name": "FormEstadoCivil",
+					"subModuleId": "CMBOS",
+					"subModuleName": "CombosEstado",
+					"taskId": "T_INTRDBANOJWGX_697",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"moduleName": "Introduccion",
+					"name": "Calculadora",
+					"subModuleId": "OPRCN",
+					"subModuleName": "Operaciones",
+					"taskId": "T_INTRDTGGRJEYF_486",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"moduleName": "Introduccion",
+					"name": "FormularioCuentas",
+					"subModuleId": "FRMCN",
+					"subModuleName": "FormCuentas",
+					"taskId": "T_INTRDYRASIXRJ_820",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Capacitacion",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CAPACITAONC_457",
+		"mainPortletTaskId": "T_INTRDTGGRJEYF_486",
+		"modules": [
+			"INTRD"
+		],
+		"name": "Capacitacion"
+	},
+	"APP_CUENTASUSLA_437": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 0,
+					"moduleId": "INTRD",
+					"moduleName": "Introduccion",
+					"name": "CuentaNueva",
+					"subModuleId": "CNTAS",
+					"subModuleName": "Cuentas",
+					"taskId": "T_INTRDRIOMVHMO_859",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Cuentas",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CUENTASUSLA_437",
+		"mainPortletTaskId": "T_INTRDRIOMVHMO_859",
+		"modules": [
+			"INTRD"
+		],
+		"name": "Cuentas"
+	},
+	"APP_INSERTSBILI_345": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "FormImpresora",
+					"subModuleId": "FRMSP",
+					"taskId": "T_INTRDJEEIIIOD_692",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "FormFestivos",
+					"subModuleId": "FRMSP",
+					"taskId": "T_INTRDKMSGVNFM_174",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "InsertsBLI",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_INSERTSBILI_345",
+		"mainPortletTaskId": "T_INTRDJEEIIIOD_692",
+		"modules": [
+			"INTRD"
+		],
+		"name": "InsertsBLI"
+	}
+}

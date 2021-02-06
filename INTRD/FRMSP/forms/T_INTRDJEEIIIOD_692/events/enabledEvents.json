@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONHCXHCLK_743799",
+		"controlName": "VA_VABUTTONHCXHCLK_743799",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Impresora",
+		"eventsType": "visualAttributeEventType"
+	}
+]

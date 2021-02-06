@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONIXHHGDZ_257121",
+		"controlName": "VA_VABUTTONIXHHGDZ_257121",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "DiaFeriado",
+		"eventsType": "visualAttributeEventType"
+	}
+]

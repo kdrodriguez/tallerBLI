@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1216_bli_busquedacliente">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1216_bli_busquedacliente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD"/>
+        <property name="bli.id" type="String" value="BLI1216_bli_busquedacliente"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1216_bli_busquedacliente"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1366_bli_cuentadeahorros">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1366_bli_cuentadeahorros"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD"/>
+        <property name="bli.id" type="String" value="BLI1366_bli_cuentadeahorros"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1366_bli_cuentadeahorros"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1500_bli_feriado">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1500_bli_feriado"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD"/>
+        <property name="bli.id" type="String" value="BLI1500_bli_feriado"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1500_bli_feriado"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI2278_bli_cuentacorriente">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI2278_bli_cuentacorriente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD"/>
+        <property name="bli.id" type="String" value="BLI2278_bli_cuentacorriente"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI2278_bli_cuentacorriente"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI8337_bli_impresora">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI8337_bli_impresora"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD"/>
+        <property name="bli.id" type="String" value="BLI8337_bli_impresora"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI8337_bli_impresora"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI9206_bli_buscarcliente">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI9206_bli_buscarcliente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD"/>
+        <property name="bli.id" type="String" value="BLI9206_bli_buscarcliente"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI9206_bli_buscarcliente"/>
+    </scr:component>
+</components>

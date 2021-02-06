@@ -1,0 +1,315 @@
+{
+	"filename": "C:\\Users\\kevin\\Desktop\\COBIS DESIGNER\\BDD PROC\\Functions\\sp_feriados.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_feriados",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "login",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_sesn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org_err"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_error"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@s_sev"
+			},
+			{
+				"dataType": "descripcion",
+				"direction": "in",
+				"name": "@s_msg"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@i_anio"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@i_mes"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@i_dia"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@i_ciudad"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_central_transmit"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_nacional"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_cwc"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "out",
+				"name": "@o_exito"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "d9d5f555-35bd-42a7-a4e8-503f91858a41",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "27bd1e41-6ec3-4d51-bb64-b6d7f57c2238",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "c806edb3-bb6c-4d3e-b573-26d140cda844",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "69eefbec-fb38-4762-92bf-8aba5958db85",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "11937ac3-a251-40e0-a47b-fa50c42c5b8d",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "5c77d637-a8a2-4a72-87b8-6e1cbb8bddb8",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 0"
+			},
+			{
+				"_idQuery": "a12436aa-3f61-47d9-be17-040675bed933",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "47737f63-919e-422e-a146-edcaf73c7145",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "6646764b-2042-45ed-b4e6-59cb7812d16d",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "389299c0-01d5-44f6-99be-af94666687c6",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "eca3066d-23fa-47a8-bb28-6f85dae4e1e9",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 1"
+			},
+			{
+				"_idQuery": "535d35e6-b5e8-4f0e-b201-a3dcf05d785e",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select 0"
+			},
+			{
+				"_idQuery": "6b3d3078-ac2e-4d52-96c3-ea19f2dbd771",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}"
+				],
+				"editMode": true,
+				"queryText": "select dia, mes, anio\r\n          from"
+			},
+			{
+				"_idQuery": "ddcbef8c-6a41-4957-a326-5b99feaa910e",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select datepart(dd,df_fecha)\r\n         from"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_anio_ant"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_anio_prx"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_cfn"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_clave"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_cmdtransrv"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_contador"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@w_fecha"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_mes_ant"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_mes_prx"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_nt_nombre"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_num_nodos"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

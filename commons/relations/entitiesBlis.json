@@ -1,0 +1,106 @@
+{
+	"INTRD": [
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEGK_534",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI1216_bli_busquedacliente",
+			"nameBli": "BLI_busquedacliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAPXF_168",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1366_bli_cuentadeahorros",
+			"nameBli": "BLI_cuentadeahorros"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_DIAFERIAD_405",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1500_bli_feriado",
+			"nameBli": "BLI_feriado"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAPXF_168",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI2278_bli_cuentacorriente",
+			"nameBli": "BLI_cuentacorriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_IMPRESOAA_384",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8337_bli_impresora",
+			"nameBli": "BLI_impresora"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEGK_534",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI9206_bli_buscarcliente",
+			"nameBli": "BLI_BuscarCliente"
+		}
+	]
+}
